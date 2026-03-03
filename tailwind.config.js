@@ -6,7 +6,12 @@ export default {
     "./*.{js,jsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'display': ['Playfair Display', 'serif'],
+        'sans': ['Inter', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
